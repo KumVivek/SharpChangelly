@@ -1,0 +1,2 @@
+Changelly.Changelly changelly = new Changelly.Changelly("APIKEY", "APISecret", "APIUrl");
+var res = changelly.GetExchangeAmount("btc", "usd", 1);
